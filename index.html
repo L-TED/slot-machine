@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot Machine</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/response.css" />
+    <script type="module" src="js/index.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <div class="contents">
+        <!-- 심볼 -->
+        <div id="lines">
+          <div class="symbols">
+            <div id="line1">❓</div>
+          </div>
+          <div class="symbols">
+            <div id="line2">❓</div>
+          </div>
+          <div class="symbols">
+            <div id="line3">❓</div>
+          </div>
+        </div>
+        <span></span>
+        <!-- 스핀 버튼 -->
+        <div class="spinBtn">
+          <button id="spin">SPIN</button>
+        </div>
+        <!-- 배팅머니 인풋 -->
+        <div class="betMoney">
+          <input
+            id="bet"
+            type="text"
+            placeholder="type amout of credit to bet"
+          />
+        </div>
+        <div class="contentsLower">
+          <!-- 배당 보유액 -->
+          <div class="holds">
+            <p>holding coins: <span id="coins">5</span></p>
+            <p>holding credits: <span id="credits">200</span></p>
+            <p>holding cash: <span id="cash">0</span></p>
+          </div>
+          <!-- 코인 충전 및 캐쉬 변환-->
+          <div class="btn">
+            <button id="chargeCoin">Charge Coins</button>
+            <button id="changeCredits">Change to Cash</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

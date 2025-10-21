@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+  section > .contents > #lines {
+    width: 95vw;
+  }
+  section > .contents > #lines > .symbols {
+    font-size: 3rem;
+    padding: 3rem 1rem;
+    border-radius: 12px;
+    background-color: whitesmoke;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  .contents {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  section > .contents > #lines > .symbols {
+    font-size: 3rem;
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+    background-color: whitesmoke;
+  }
+}
